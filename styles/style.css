@@ -322,7 +322,6 @@
   line-height: 30px;
   font-weight: 700;
   display: flex;
-  align-items: center;
 }
 
 .step__icon {
@@ -336,6 +335,7 @@
 .footer {
   position: relative;
   width: 100%;
+  height: 320px;
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
@@ -343,18 +343,18 @@
 
 .footer__columns {
   display: flex;
-  margin-bottom: 100px;
-  column-gap: 80px;
 }
 
 .footer__column_content_hours {
-  margin-left: auto;
-  margin-top: 60px;
+  position: absolute;
+  top: 60px;
+  right: 260px;
 }
 
 .footer__column_content_social {
-  margin-right: 80px;
-  margin-top: 60px;
+  position: absolute;
+  right: 80px;
+  top: 60px;
 }
 
 .footer__logo {
@@ -392,6 +392,7 @@
 }
 
 .footer__copyright {
-  margin-left: 80px;
-  padding-bottom: 60px;
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
 }
