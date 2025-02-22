@@ -371,6 +371,7 @@
 }
 
 .footer__column-heading {
+  margin: 0;
   margin-bottom: 20px;
 }
 
@@ -382,7 +383,12 @@
 }
 
 .footer__list-item {
-  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/*remove o espaço de 16px dos ultimos itens da listas*/
+.footer__list-item_content_last {
+  padding-bottom: 0;
 }
 
 .footer__column-link {
