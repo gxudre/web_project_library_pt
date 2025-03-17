@@ -28,4 +28,4 @@ A página "Aprendendo a Aprender" foi criada com base em um roteiro, com o objet
 
 ---  
 
-🔹 **Feit
+🔹 **Feito com ❤️ por [Gustavo Xudré](https://www.linkedin.com/in/gustavo-xudre/).**  
